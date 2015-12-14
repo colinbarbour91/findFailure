@@ -2,16 +2,16 @@
   "manifest_version": 2,
 
   "name": "findFailures",
-  "description": "This extension finds failures highlighted in red.",
+  "description": "This extension finds test failures in TTM/TNG logs.",
   "version": "1.0",
 
   "browser_action": {
     "default_icon": "images/icon.png",
-    "default_popup": "html/popup.html",
-    "default_title": "Find next failure"
+    "default_title": "Find next failure",
+    "default_popup": "html/popup.html"
   },
+
   "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/"
+    "activeTab"
   ]
 }
