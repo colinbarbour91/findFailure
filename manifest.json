@@ -9,7 +9,9 @@
   	},
 
   	"permissions": [
-    	"tabs", "<all_urls>"
+        "tabs",
+        "http://gwyedgettm.cisco.com/blackbox/*",
+        "http://ttm.rusclabs.cisco.com/blackbox/*"
   	],
 
   	"browser_action": {
