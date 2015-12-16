@@ -9,12 +9,9 @@
   <script src="../js/contentscript.js"></script>
 
   <script>
-  QUnit.test("test_the_answer_to_life_the_universe", function( assert ) {
-    assert.ok( 42 == "1", "Passed");
-  });
-
   QUnit.test("test_get_divs", function( assert ) {
-    assert.ok( getDivs(), "Did not get Divs");
+    var divs = getDivs();
+    assert.ok( divs[0] == undefined, "Test Page has no error divs");
   });
 
   </script>
