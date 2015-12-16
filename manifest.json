@@ -1,17 +1,24 @@
 {
-  "manifest_version": 2,
+	"manifest_version": 2,
+	"name": "findFailures",
+	"description": "This extension finds test failures in TTM/TNG logs.",
+	"version": "1.0",
 
-  "name": "findFailures",
-  "description": "This extension finds test failures in TTM/TNG logs.",
-  "version": "1.0",
+ 	"icons": {
+    "48": "images/icon.png"
+  	},
 
-  "browser_action": {
-    "default_icon": "images/icon.png",
-    "default_title": "Find next failure",
-    "default_popup": "html/popup.html"
-  },
+  	"permissions": [
+    	"tabs", "<all_urls>"
+  	],
 
-  "permissions": [
-    "activeTab"
-  ]
+  	"browser_action": {
+    	"default_icon": "images/icon.png",
+    	"default_popup": "html/popup.html"
+  	},
+
+  	"background": {
+    	"scripts": ["js/background.js"],
+    	"persistent": false
+    }
 }
