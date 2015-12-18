@@ -1,0 +1,40 @@
+fieldset
+{
+	display:block;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:5px;
+	border:1px solid #7e9eae;
+	padding-top:0;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	line-height:1em;
+	background:#ebf1f4;
+}
+
+legend
+{
+	background:#dbe6eb;
+	border:1px solid #7e9eae;
+	color:#4a7489;
+	font-weight:bold;
+	font-size:90%;
+	padding:3px;
+}
+
+button
+{
+	border:1px solid #666;
+	background:#EEE;
+	font-size:10px;
+	font-weight:bold;
+	height:19px;
+	color:black;
+}
+
+button:hover
+{
+	background-image:none;
+	background-color:#FFF;
+}
