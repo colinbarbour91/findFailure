@@ -11,7 +11,8 @@
   	"permissions": [
         "tabs",
         "http://gwyedgettm.cisco.com/blackbox/*",
-        "http://ttm.rusclabs.cisco.com/blackbox/*"
+        "http://ttm.rusclabs.cisco.com/blackbox/*",
+        "storage"
   	],
 
   	"browser_action": {
