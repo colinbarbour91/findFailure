@@ -2,8 +2,8 @@
 #
 # Purpose: Pack a Chromium extension directory into crx format
 
-if test $# -ne 2; then
-  echo "Usage: crxmake.sh <extension dir> <pem path>"
+if test $# -ne 3; then
+  echo "Usage: crxmake.sh <name> <extension dir> <pem path>"
   exit 1
 fi
 
