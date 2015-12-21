@@ -7,9 +7,9 @@ if test $# -ne 2; then
   exit 1
 fi
 
-dir=$1
-key=$2
-name=$(basename "$dir")
+name=$1
+dir=$2
+key=$3
 crx="$name.crx"
 pub="$name.pub"
 sig="$name.sig"
